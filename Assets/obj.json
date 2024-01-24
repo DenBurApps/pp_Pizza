@@ -1,0 +1,98 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "description": "This dish is succulent pieces of chicken pan-fried with a variety of vegetables such as carrots, broccoli and mushrooms. It is full of flavour and aroma thanks to the addition of spices and sauces.",
+          "name": "Chicken wok",
+          "price": "1.78",
+          "image": "Chicken wok",
+          "discount": true
+        },
+
+        {
+          "description": "Udon is thick Japanese wheat noodles served with tender beef stir-fried in soy sauce. This dish has a rich and slightly sweet flavour and has a unique texture due to the thick noodles.",
+          "name": "Udon with beef in soy sauce",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+          "discount": true
+        },
+        {
+          "description": "This is a fresh and refreshing dish consisting of sliced mango, avocado and other seasonal fruits. It is ideal as a dessert or a light snack due to its sweetness and the natural flavour of the fruit.",
+          "name": "Bowl with mango and avocado",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+          "discount": true
+        },
+        {
+          "description": "Buckwheat noodles are a traditional Asian dish made from buckwheat flour. It has a special texture and delicate flavour, perfectly combined with various sauces and vegetables.",
+          "name": "Buckwheat noodles",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "description": "These are rolls made with sweet and juicy grilled unagi (head) wrapped in a nori sheet and rice, and have a rich and intense flavour that combines the sweetness of the unagi with the tenderness of the rice.",
+          "name": "Eel rolls",
+          "price": "1.78",
+          "image": "Eel rolls",
+          "discount": true
+        },
+        {
+          "description": "These rolls contain crispy pieces of chicken fried in tempura (a special Japanese batter), wrapped in nori sheet and rice, and have a juicy and flavourful taste due to the combination of the crispy chicken meat and the tenderness of the rice.",
+          "name": "Tempura chicken rolls",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+          "discount": false
+        },
+        {
+          "description": "This dish consists of fresh salmon baked with ginger and other spices. It has a rich and aromatic flavour, combining the sweetness of salmon with the sharp and spicy taste of ginger.",
+          "name": "Salmon with ginger",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+          "discount": false
+        },
+        {
+          "description": "These are rolls that contain tender and creamy avocado wrapped in a nori sheet and rice. They have a mild and delicate flavour, perfect with soy sauce and have a light texture.",
+          "name": "Avocado rolls",
+          "price": "1.78",
+          "image": "Avocado rolls",
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+
+        {
+          "description": "This dish is crispy breaded chicken pieces served with fries. It has an attractive appearance and succulent flavour due to the crispy breading and soft chicken meat.",
+          "name": "Breaded chicken with fries",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+          "discount": false
+        },
+        {
+          "description": "This dish consists of breaded and fried paneer cheese rings. It has a crispy texture and salty, delicate cheese flavour.",
+          "name": "Paneer cheese rings",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+          "discount": true
+        },
+        {
+          "description": "This is a pizza made with barbecue sauce, meat (usually beef or pork), cheese and various vegetables. It has a flavourful and rich taste due to the barbecue sauce and the combination of different ingredients.",
+          "name": "BBQ pizza",
+          "price": "1.78",
+          "image": "BBQ pizza",
+          "discount": true
+        }
+      ]
+    }
+  ]
+}
