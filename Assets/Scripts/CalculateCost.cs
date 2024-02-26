@@ -12,7 +12,6 @@ public class CalculateCost : MonoBehaviour
         if (Instance != null)
             Destroy(gameObject);
         Instance = this;
-        Calculate();
     }
     private float allSum;
 

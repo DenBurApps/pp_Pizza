@@ -59,6 +59,7 @@ public class SpawnPlatesManager2 : MonoBehaviour
 
             }
         }
+        CalculateCost.Instance.Calculate();
     }
 }
 

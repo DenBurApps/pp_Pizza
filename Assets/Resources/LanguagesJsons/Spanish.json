@@ -1,0 +1,107 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "name": "Pollo al wok",
+          "description": "Este plato son suculentos trozos de pollo salteados con una variedad de verduras como zanahorias, brócoli y champiñones. Está lleno de sabor y aroma gracias a la adición de especias y salsas.",
+          "price": "1.78",
+          "image": "Chicken wok",
+
+          "discount": true
+        },
+        {
+          "name": "Udon con carne de res en salsa de soja",
+          "description": "Los udon son gruesos fideos japoneses de trigo servidos con tierna carne de res salteada en salsa de soja. Este plato tiene un sabor rico y ligeramente dulce, y una textura única debido a los fideos gruesos.",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+
+          "discount": true
+        },
+        {
+          "name": "Bol con mango y aguacate",
+          "description": "Este es un plato fresco y refrescante que consiste en rodajas de mango, aguacate y otras frutas de temporada. Es ideal como postre o tentempié ligero debido a su dulzura y al sabor natural de la fruta.",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+
+          "discount": true
+        },
+        {
+          "name": "Fideos de alforfón",
+          "description": "Los fideos de alforfón son un plato tradicional asiático hecho de harina de alforfón. Tiene una textura especial y un sabor delicado, perfectamente combinado con varias salsas y verduras.",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "name": "Rollos de anguila",
+          "description": "Estos son rollos hechos con anguila (cabeza) a la parrilla, dulce y jugosa, envueltos en una hoja de nori y arroz, y tienen un sabor rico e intenso que combina la dulzura de la anguila con la ternura del arroz.",
+          "price": "1.78",
+          "image": "Eel rolls",
+
+          "discount": true
+        },
+        {
+          "name": "Rollos de pollo tempura",
+          "description": "Estos rollos contienen trozos crujientes de pollo frito en tempura (una masa japonesa especial), envueltos en una hoja de nori y arroz, y tienen un sabor jugoso y sabroso debido a la combinación de la carne crujiente de pollo y la ternura del arroz.",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+
+          "discount": false
+        },
+        {
+          "name": "Salmón con jengibre",
+          "description": "Este plato consiste en salmón fresco horneado con jengibre y otras especias. Tiene un sabor rico y aromático, que combina la dulzura del salmón con el sabor fuerte y picante del jengibre.",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+
+          "discount": false
+        },
+        {
+          "name": "Rollos de aguacate",
+          "description": "Estos son rollos que contienen aguacate tierno y cremoso envuelto en una hoja de nori y arroz. Tienen un sabor suave y delicado, perfecto con salsa de soja y una textura ligera.",
+          "price": "1.78",
+          "image": "Avocado rolls",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+        {
+          "name": "Pollo empanado con papas fritas",
+          "description": "Este plato son trozos crujientes de pollo empanado servidos con papas fritas. Tiene una apariencia atractiva y un sabor suculento debido al empanado crujiente y la carne de pollo tierna.",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+
+          "discount": false
+        },
+        {
+          "name": "Aros de queso paneer empanados",
+          "description": "Este plato consiste en aros de queso paneer empanados y fritos. Tiene una textura crujiente y un sabor salado y delicado.",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+
+          "discount": true
+        },
+        {
+          "name": "Pizza BBQ",
+          "description": "Esta es una pizza hecha con salsa barbacoa, carne (generalmente res o cerdo), queso y varias verduras. Tiene un sabor sabroso y rico debido a la salsa barbacoa y la combinación de diferentes ingredientes.",
+          "price": "1.78",
+          "image": "BBQ pizza",
+
+          "discount": true
+        }
+      ]
+    }
+  ]
+}

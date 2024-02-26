@@ -15,8 +15,7 @@ public class LoadPlateImage : MonoBehaviour
     private RawImage PlateImg;
     [SerializeField]
     private GameObject _loadingObj;
-    [SerializeField]
-    private Vector2 _staticImageSize;
+    private Vector2 startingImageSize = new Vector2(0,0);
 
     private void OnEnable()
     {
@@ -45,9 +44,18 @@ public class LoadPlateImage : MonoBehaviour
 
     public void GetTexture(Texture2D texture)
     {
+            var SD = PlateImg.rectTransform.sizeDelta;
+
+        if (startingImageSize == new Vector2(0,0))
+        {
+            startingImageSize = new Vector2(SD.x, SD.y);
+        }
+        else
+            PlateImg.rectTransform.sizeDelta = startingImageSize;
+
         PlateImg.texture = texture;
 
-        var size = PlateImg.GetComponent<RectTransform>();
+        var size = PlateImg.rectTransform;
         float loadPlateImageWidth = PlateImg.rectTransform.rect.width;
         float height = PlateImg.rectTransform.rect.height;
 

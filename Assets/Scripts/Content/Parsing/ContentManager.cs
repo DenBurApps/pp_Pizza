@@ -2,26 +2,35 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 using UnityEngine;
 
 public class ContentManager : MonoBehaviour
 {
+    public static ContentManager instance;
     public static Root allData;
-    string JsonFileName = "obj.json";
-    public TextAsset json;
-    private void Start()
+    public TextAsset CurrentJson;
+    public int currentJsonNumber;
+    public List<TextAsset> AllJsons = new List<TextAsset>();
+    public List<TMP_FontAsset> tMP_Fonts = new List<TMP_FontAsset>();
+
+    private void Awake()
     {
-        if (checkRoutine != null)
+        if(instance != null)
+            Destroy(this);
+        instance = this;
+
+/*        if (checkRoutine != null)
         {
             StopCoroutine(checkRoutine);
         }
-        checkRoutine = StartCoroutine(GetAllData());
+        checkRoutine = StartCoroutine(GetAllData());*/
     }
 
     Coroutine checkRoutine;
     IEnumerator GetAllData()
     {
-        string jsonContent = json.ToString();
+        string jsonContent = CurrentJson.ToString();
 
         //string jsonContent = System.IO.File.ReadAllText(Application.dataPath + "/" + JsonFileName);
         allData = JsonUtility.FromJson<Root>(jsonContent);
@@ -45,21 +54,21 @@ public class ContentManager : MonoBehaviour
             foreach (var obj in item.obj)
             {
                 obj.type = item.name;
-                objDic.Add(obj.name, obj);
+                objDic.Add(obj.image, obj);
                 if (obj.discount)
-                    discountDic.Add(obj.name,obj);
+                    discountDic.Add(obj.image, obj);
 
-                if(CheckPlayerPrefs(obj.name + "_Fav"))
-                    favDic.Add(obj.name,obj);
+                if(CheckPlayerPrefs(obj.image + "_Fav"))
+                    favDic.Add(obj.image, obj);
 
-                if (PlayerPrefs.HasKey(obj.name + "_InBagCount"))
+                if (PlayerPrefs.HasKey(obj.image + "_InBagCount"))
                 {
-                    if(PlayerPrefs.GetInt(obj.name + "_InBagCount") > 0)
+                    if(PlayerPrefs.GetInt(obj.image + "_InBagCount") > 0)
                     {
-                        inBagDic.Add(obj.name, obj);
+                        inBagDic.Add(obj.image, obj);
 
-                        inBagDic[obj.name].inBagCount =
-                            PlayerPrefs.GetInt(obj.name + "_InBagCount");
+                        inBagDic[obj.image].inBagCount =
+                            PlayerPrefs.GetInt(obj.image + "_InBagCount");
                     }
                 }
             }
@@ -73,16 +82,28 @@ public class ContentManager : MonoBehaviour
         Debug.Log("favorite " + allDataDic["favorite"].Count);
         Debug.Log("InBag " + allDataDic["InBag"].Count);
 
-        bool CheckPlayerPrefs(string name)
+        bool CheckPlayerPrefs(string image)
         {
-            if (PlayerPrefs.HasKey(name))
+            if (PlayerPrefs.HasKey(image))
             {
-                if (Convert.ToBoolean(PlayerPrefs.GetInt(name)))
+                if (Convert.ToBoolean(PlayerPrefs.GetInt(image)))
                 {
                     return true;
                 }
             }
             return false;
         }
+    }
+
+    public void ChangeCurrentJson(int jsonId)
+    {
+        allDataDic = new Dictionary<string, Dictionary<string, Obj>>();
+        currentJsonNumber = jsonId;
+        CurrentJson = AllJsons[jsonId];
+        if (checkRoutine != null)
+        {
+            StopCoroutine(checkRoutine);
+        }
+        checkRoutine = StartCoroutine(GetAllData());
     }
 }

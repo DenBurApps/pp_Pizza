@@ -1,0 +1,106 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "name": "Wok de poulet",
+          "description": "Ce plat se compose de morceaux succulents de poulet sautés avec une variété de légumes tels que des carottes, du brocoli et des champignons. Il est plein de saveur et d'arôme grâce à l'ajout d'épices et de sauces.",
+          "price": "1.78",
+          "image": "Chicken wok",
+          "discount": true
+        },
+        {
+          "name": "Udon avec du bœuf dans la sauce soja",
+          "description": "Les udon sont des nouilles épaisses de blé japonaises servies avec du bœuf tendre sauté dans de la sauce soja. Ce plat a une saveur riche et légèrement sucrée et une texture unique due aux nouilles épaisses.",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+
+          "discount": true
+        },
+        {
+          "name": "Bol avec de la mangue et de l'avocat",
+          "description": "Il s'agit d'un plat frais et rafraîchissant composé de mangue tranchée, d'avocat et d'autres fruits de saison. Il est idéal en dessert ou en collation légère en raison de sa douceur et de la saveur naturelle des fruits.",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+
+          "discount": true
+        },
+        {
+          "name": "Nouilles de sarrasin",
+          "description": "Les nouilles de sarrasin sont un plat asiatique traditionnel à base de farine de sarrasin. Elles ont une texture spéciale et une saveur délicate, parfaitement associées à diverses sauces et légumes.",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "name": "Rouleaux d'anguille",
+          "description": "Il s'agit de rouleaux réalisés avec de l'anguille grillée, sucrée et juteuse, enveloppée dans une feuille de nori et du riz, et ayant une saveur riche et intense qui combine la douceur de l'anguille avec la tendresse du riz.",
+          "price": "1.78",
+          "image": "Eel rolls",
+
+          "discount": true
+        },
+        {
+          "name": "Rouleaux de poulet tempura",
+          "description": "Ces rouleaux contiennent des morceaux croustillants de poulet frits dans une pâte tempura (une pâte japonaise spéciale), enveloppés dans une feuille de nori et du riz, et ont un goût juteux et savoureux grâce à la combinaison de la viande de poulet croustillante et de la tendresse du riz.",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+
+          "discount": false
+        },
+        {
+          "name": "Saumon au gingembre",
+          "description": "Ce plat est composé de saumon frais cuit au four avec du gingembre et d'autres épices. Il a une saveur riche et aromatique, combinant la douceur du saumon avec le goût piquant et épicé du gingembre.",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+
+          "discount": false
+        },
+        {
+          "name": "Rouleaux à l'avocat",
+          "description": "Il s'agit de rouleaux contenant de l'avocat tendre et crémeux enveloppé dans une feuille de nori et du riz. Ils ont une saveur douce et délicate, parfaite avec de la sauce soja et une texture légère.",
+          "price": "1.78",
+          "image": "Avocado rolls",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+        {
+          "name": "Poulet pané avec frites",
+          "description": "Ce plat se compose de morceaux de poulet croustillants servis avec des frites. Il a une apparence attrayante et une saveur succulente grâce à la panure croustillante et à la viande de poulet tendre.",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+
+          "discount": false
+        },
+        {
+          "name": "Anneaux de fromage paneer",
+          "description": "Ce plat se compose d'anneaux de fromage paneer panés et frits. Il a une texture croustillante et une saveur salée et délicate de fromage.",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+
+          "discount": true
+        },
+        {
+          "name": "Pizza barbecue",
+          "description": "Il s'agit d'une pizza composée de sauce barbecue, de viande (généralement du bœuf ou du porc), de fromage et de divers légumes. Elle a un goût savoureux et riche grâce à la sauce barbecue et à la combinaison d'ingrédients différents.",
+          "price": "1.78",
+          "image": "BBQ pizza",
+
+          "discount": true
+        }
+      ]
+    }
+  ]
+}

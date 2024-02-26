@@ -1,0 +1,107 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "name": "Frango no wok",
+          "description": "Este prato são pedaços suculentos de frango fritos com uma variedade de vegetais como cenouras, brócolis e cogumelos. Está cheio de sabor e aroma graças à adição de especiarias e molhos.",
+          "price": "1.78",
+          "image": "Chicken wok",
+
+          "discount": true
+        },
+        {
+          "name": "Udon com carne de vaca em molho de soja",
+          "description": "Udon são espessos noodles japoneses de trigo servidos com carne de vaca macia salteada em molho de soja. Este prato tem um sabor rico e ligeiramente doce, e uma textura única devido aos noodles espessos.",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+
+          "discount": true
+        },
+        {
+          "name": "Taça com manga e abacate",
+          "description": "Este é um prato fresco e refrescante composto por manga em fatias, abacate e outras frutas de temporada. É ideal como sobremesa ou lanche leve devido à sua doçura e ao sabor natural da fruta.",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+
+          "discount": true
+        },
+        {
+          "name": "Noodles de trigo-sarraceno",
+          "description": "Noodles de trigo-sarraceno são um prato asiático tradicional feito com farinha de trigo-sarraceno. Tem uma textura especial e um sabor delicado, perfeitamente combinado com vários molhos e vegetais.",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "name": "Rolos de enguia",
+          "description": "Estes são rolos feitos com enguia (cabeça) grelhada, doce e suculenta, envolta em uma folha de nori e arroz, e têm um sabor rico e intenso que combina a doçura da enguia com a ternura do arroz.",
+          "price": "1.78",
+          "image": "Eel rolls",
+
+          "discount": true
+        },
+        {
+          "name": "Rolos de frango tempura",
+          "description": "Estes rolos contêm pedaços crocantes de frango frito em tempura (uma massa japonesa especial), envolvidos em folha de nori e arroz, e têm um sabor suculento e saboroso devido à combinação da carne crocante de frango e a ternura do arroz.",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+
+          "discount": false
+        },
+        {
+          "name": "Salmão com gengibre",
+          "description": "Este prato consiste em salmão fresco assado com gengibre e outras especiarias. Tem um sabor rico e aromático, combinando a doçura do salmão com o sabor forte e picante do gengibre.",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+
+          "discount": false
+        },
+        {
+          "name": "Rolos de abacate",
+          "description": "Estes são rolos que contêm abacate tenro e cremoso envolto em folha de nori e arroz. Têm um sabor suave e delicado, perfeito com molho de soja e uma textura leve.",
+          "price": "1.78",
+          "image": "Avocado rolls",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+        {
+          "name": "Frango empanado com batatas fritas",
+          "description": "Este prato são pedaços crocantes de frango empanado servidos com batatas fritas. Tem uma aparência atraente e um sabor suculento devido à empanagem crocante e à carne de frango macia.",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+
+          "discount": false
+        },
+        {
+          "name": "Aros de queijo paneer empanados",
+          "description": "Este prato consiste em aros de queijo paneer empanados e fritos. Tem uma textura crocante e um sabor salgado e delicado.",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+
+          "discount": true
+        },
+        {
+          "name": "Pizza BBQ",
+          "description": "Esta é uma pizza feita com molho barbecue, carne (geralmente bovina ou suína), queijo e vários vegetais. Tem um sabor rico e delicioso devido ao molho barbecue e à combinação de diferentes ingredientes.",
+          "price": "1.78",
+          "image": "BBQ pizza",
+
+          "discount": true
+        }
+      ]
+    }
+  ]
+}

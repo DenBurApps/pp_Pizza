@@ -1,0 +1,107 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "name": "Hühnchenpfanne",
+          "description": "Dieses Gericht besteht aus saftigen Stücken von Hühnchen, die mit einer Vielzahl von Gemüsesorten wie Karotten, Brokkoli und Pilzen in der Pfanne angebraten werden. Es ist voller Geschmack und Aroma dank der Zugabe von Gewürzen und Saucen.",
+          "price": "1.78",
+          "image": "Chicken wok",
+
+          "discount": true
+        },
+        {
+          "name": "Udon mit Rindfleisch in Sojasauce",
+          "description": "Udon sind dicke japanische Weizennudeln, serviert mit zartem Rindfleisch, das in Sojasauce angebraten wird. Dieses Gericht hat einen reichen und leicht süßen Geschmack und eine einzigartige Textur aufgrund der dicke der Nudeln.",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+
+          "discount": true
+        },
+        {
+          "name": "Schale mit Mango und Avocado",
+          "description": "Dies ist ein frisches und erfrischendes Gericht aus geschnittenem Mango, Avocado und anderen saisonalen Früchten. Es eignet sich ideal als Dessert oder leichter Snack aufgrund seiner Süße und des natürlichen Geschmacks der Früchte.",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+
+          "discount": true
+        },
+        {
+          "name": "Buchweizennudeln",
+          "description": "Buchweizennudeln sind ein traditionelles asiatisches Gericht aus Buchweizenmehl. Es hat eine besondere Textur und einen zarten Geschmack, der perfekt mit verschiedenen Saucen und Gemüse kombiniert ist.",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "name": "Aalrollen",
+          "description": "Diese Rollen bestehen aus süßen und saftigen gegrillten Aalstücken, eingewickelt in einer Nori-Blatt und Reis, und haben einen reichen und intensiven Geschmack, der die Süße des Aals mit der Zärtlichkeit des Reises kombiniert.",
+          "price": "1.78",
+          "image": "Eel rolls",
+
+          "discount": true
+        },
+        {
+          "name": "Tempura-Hühnchenrollen",
+          "description": "Diese Rollen enthalten knusprige Stücke von in Tempura (einem speziellen japanischen Teig) frittiertem Hühnchen, eingewickelt in Nori-Blatt und Reis, und haben einen saftigen und geschmackvollen Geschmack durch die Kombination von knusprigem Hühnchenfleisch und der Zärtlichkeit des Reises.",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+
+          "discount": false
+        },
+        {
+          "name": "Lachs mit Ingwer",
+          "description": "Dieses Gericht besteht aus frischem Lachs, gebacken mit Ingwer und anderen Gewürzen. Es hat einen reichen und aromatischen Geschmack und kombiniert die Süße des Lachses mit dem scharfen und würzigen Geschmack des Ingwers.",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+
+          "discount": false
+        },
+        {
+          "name": "Avocado-Rollen",
+          "description": "Dies sind Rollen, die zarten und cremigen Avocado in einem Nori-Blatt und Reis enthalten. Sie haben einen milden und delikaten Geschmack, perfekt mit Sojasauce und einer leichten Textur.",
+          "price": "1.78",
+          "image": "Avocado rolls",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+        {
+          "name": "Paniertes Hühnchen mit Pommes",
+          "description": "Dieses Gericht sind knusprige panierte Hühnerstücke, serviert mit Pommes. Es hat ein attraktives Erscheinungsbild und einen saftigen Geschmack durch die knusprige Panade und das zarte Hühnerfleisch.",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+
+          "discount": false
+        },
+        {
+          "name": "Paneer-Käseringe paniert und frittiert",
+          "description": "Dieses Gericht besteht aus panierten und frittierten Paneer-Käseringen. Es hat eine knusprige Textur und einen salzigen, zarten Käsegeschmack.",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+
+          "discount": true
+        },
+        {
+          "name": "BBQ-Pizza",
+          "description": "Dies ist eine Pizza mit Barbecuesauce, Fleisch (meist Rind- oder Schweinefleisch), Käse und verschiedenen Gemüsesorten. Es hat einen schmackhaften und reichen Geschmack durch die Barbecuesauce und die Kombination verschiedener Zutaten.",
+          "price": "1.78",
+          "image": "BBQ pizza",
+
+          "discount": true
+        }
+      ]
+    }
+  ]
+}

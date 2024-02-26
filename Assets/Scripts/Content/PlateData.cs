@@ -43,7 +43,7 @@ public class PlateData : MonoBehaviour
         if (properties.image != null && properties.image != "")
             loadPlateImage.LoadPlateImageInRawImage(properties.image, properties.image);
 
-        properties.favorite = Convert.ToBoolean(PlayerPrefs.GetInt(properties.name + "_Fav"));
+        properties.favorite = Convert.ToBoolean(PlayerPrefs.GetInt(properties.image + "_Fav"));
         ChangeSubscribeBttnColor(properties.favorite);
 
         _favouriteBttn.GetComponent<Button>().onClick.AddListener(
@@ -97,15 +97,15 @@ public class PlateData : MonoBehaviour
     {
         if (isFolowed)
         {
-            if (!ContentManager.allDataDic["favorite"].ContainsKey(properties.name))
-                ContentManager.allDataDic["favorite"].Add(properties.name, properties);
+            if (!ContentManager.allDataDic["favorite"].ContainsKey(properties.image))
+                ContentManager.allDataDic["favorite"].Add(properties.image, properties);
             _favouriteBttn.SetActive(true);
             _unFavouriteBttn.SetActive(false);
         }
         else
         {
-            if (ContentManager.allDataDic["favorite"].ContainsKey(properties.name))
-                ContentManager.allDataDic["favorite"].Remove(properties.name);
+            if (ContentManager.allDataDic["favorite"].ContainsKey(properties.image))
+                ContentManager.allDataDic["favorite"].Remove(properties.image);
             _favouriteBttn.SetActive(false);
             _unFavouriteBttn.SetActive(true);
         }
@@ -115,6 +115,6 @@ public class PlateData : MonoBehaviour
     private void SetPlateFavoriteStateInPlayerPrefs(bool isFolowed)
     {
         properties.favorite = isFolowed;
-        PlayerPrefs.SetInt(properties.name + "_Fav", Convert.ToInt16(isFolowed));
+        PlayerPrefs.SetInt(properties.image + "_Fav", Convert.ToInt16(isFolowed));
     }
 }

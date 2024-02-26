@@ -1,0 +1,107 @@
+{
+  "type": [
+    {
+      "name": "Asian",
+      "obj": [
+        {
+          "name": "닭 요리",
+          "description": "이 요리는 닭 조각을 당근, 브로콜리, 버섯 등 다양한 채소와 함께 볶은 것입니다. 양념과 소스의 첨가로 풍미와 향이 가득하며 맛있는 요리입니다.",
+          "price": "1.78",
+          "image": "Chicken wok",
+
+          "discount": true
+        },
+        {
+          "name": "우동 소고기 간장 볶음",
+          "description": "우동은 일본식 밀면으로 부드러운 소고기를 간장에 볶아 내면 독특한 식감을 가지고 있습니다. 두꺼운 면의 특별한 식감 덕분에 풍부하고 약간 달콤한 맛이 나는 이 요리는 고유합니다.",
+          "price": "1.78",
+          "image": "Udon with beef in soy sauce",
+
+          "discount": true
+        },
+        {
+          "name": "망고와 아보카도 그릇",
+          "description": "이는 망고, 아보카도 및 다른 계절 과일로 구성된 상쾌하고 청량한 요리입니다. 달콤함과 과일의 자연스러운 풍미 덕분에 디저트 또는 가벼운 간식으로 이상적입니다.",
+          "price": "1.78",
+          "image": "Bowl with mango and avocado",
+
+          "discount": true
+        },
+        {
+          "name": "메밀 국수",
+          "description": "메밀 국수는 메밀 가루로 만든 전통적인 아시아 요리입니다. 특별한 식감과 섬세한 풍미가 있으며 다양한 소스와 채소와 완벽하게 어울립니다.",
+          "price": "1.78",
+          "image": "Buckwheat noodles",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "obj": [
+        {
+          "name": "장어 롤",
+          "description": "장어를 달고 쥐어진 달콤하고 쥐어진 장어로 만든 롤로, 미역 색과 밥으로 포장되어 있으며 장어의 달콤함과 밥의 부드러움이 조화롭게 어우러진 풍미와 풍부한 맛이 있습니다.",
+          "price": "1.78",
+          "image": "Eel rolls",
+
+          "discount": true
+        },
+        {
+          "name": "템푸라 치킨 롤",
+          "description": "이 롤에는 일본의 특별한 반죽인 템푸라에 튀긴 바삭한 닭 조각이 포함되어 있으며, 미역 색과 밥으로 포장되어 있으며 바삭한 치킨 고기와 밥의 부드러움이 조화롭게 어우러진 쥬시하고 풍미 있은 맛이 있습니다.",
+          "price": "1.78",
+          "image": "Tempura chicken rolls",
+
+          "discount": false
+        },
+        {
+          "name": "생강이 든 연어",
+          "description": "이 요리는 생강과 다른 양념과 함께 구운 신선한 연어로 구성되어 있습니다. 연어의 달콤함과 생강의 톡 쏘는 맛이 조화롭게 어우러져 풍부하고 향긋한 맛이 있습니다.",
+          "price": "1.78",
+          "image": "Salmon with ginger",
+
+          "discount": false
+        },
+        {
+          "name": "아보카도 롤",
+          "description": "이 롤에는 부드럽고 크림 같은 아보카도가 미역 색과 밥으로 포장되어 있습니다. 간장과 완벽하게 어울리며 가벼운 식감을 가지고 있습니다.",
+          "price": "1.78",
+          "image": "Avocado rolls",
+
+          "discount": false
+        }
+      ]
+    },
+    {
+      "name": "American",
+      "obj": [
+        {
+          "name": "반죽 치킨과 감자 튀김",
+          "description": "이 요리는 바삭한 반죽 치킨 조각과 감자 튀김으로 제공되는 것으로, 바삭한 튀김과 부드러운 치킨 고기로 맛있는 맛이 나는 매력적인 외관이 있습니다.",
+          "price": "1.78",
+          "image": "Breaded chicken with fries",
+
+          "discount": false
+        },
+        {
+          "name": "파니르 치즈 링",
+          "description": "이 요리는 바삭하게 튀긴 파니르 치즈 링으로 구성되어 있습니다. 바삭한 식감과 짠맛 나는 부드러운 치즈 풍미가 있습니다.",
+          "price": "1.78",
+          "image": "Paneer cheese rings",
+
+          "discount": true
+        },
+        {
+          "name": "바베큐 피자",
+          "description": "바베큐 소스, 고기 (일반적으로 쇠고기 또는 돼지고기), 치즈 및 다양한 채소로 만든 피자입니다. 바베큐 소스와 다양한 재료의 조합으로 맛있고 풍부한 맛이 있습니다.",
+          "price": "1.78",
+          "image": "BBQ pizza",
+
+          "discount": true
+        }
+      ]
+    }
+  ]
+}
