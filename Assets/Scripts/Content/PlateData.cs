@@ -86,7 +86,8 @@ public class PlateData : MonoBehaviour
 
         inBagCount.text = properties.inBagCount.ToString();
 
-        CalculateCost.Instance.Calculate();
+        if(CalculateCost.Instance != null)
+            CalculateCost.Instance.Calculate();
     }
     [SerializeField]
     private GameObject _favouriteBttn;

@@ -13,8 +13,6 @@ Library: D:\MyWork\pp_Pizza\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst
 --assembly-defines=Firebase.RemoteConfig;
 --assembly-defines=Firebase.TaskExtension;
 --assembly-defines=IngameDebugConsole.Runtime;
---assembly-defines=LeTai.TrueShadow.Demo;
---assembly-defines=LeTai.TrueShadow;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
 --assembly-defines=System.Configuration;

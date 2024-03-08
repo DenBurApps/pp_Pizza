@@ -1072,8 +1072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Order Details
-  FallbackText: Order Details
 --- !u!1 &107181133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,8 +1353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Terms_Of_Use
-  FallbackText: 
 --- !u!1 &135796116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,8 +1942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Subtotal
-  FallbackText: 
 --- !u!1 &188264629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,8 +2164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Japanese_Food
-  FallbackText: 
 --- !u!1 &191294237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,8 +2311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: American_Food
-  FallbackText: 
 --- !u!1 &200729896
 GameObject:
   m_ObjectHideFlags: 0
@@ -2842,8 +2832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Message_Subject
-  FallbackText: 
 --- !u!1 &230424126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,24 +4185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &316348524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4866,8 +4836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Approach
-  FallbackText: 
 --- !u!1 &379757069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,8 +5616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Rate_Us2
-  FallbackText: 
 --- !u!1 &454402195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6315,8 +6281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Go_Menu
-  FallbackText: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6466,7 +6430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6d928edbf1349ff45a7380917ef8f4c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0abe212a1981c0549929e3b143d4fd8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6631,8 +6595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Rate_Us
-  FallbackText: 
 --- !u!1 &563672526
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,8 +8002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Confirm_Address
-  FallbackText: 
 --- !u!1 &654995923
 GameObject:
   m_ObjectHideFlags: 0
@@ -8189,8 +8149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Add_To_Bag
-  FallbackText: 
 --- !u!1 &667070678
 GameObject:
   m_ObjectHideFlags: 0
@@ -8526,8 +8484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Choose_Your
-  FallbackText: 
 --- !u!1 &685406927
 GameObject:
   m_ObjectHideFlags: 0
@@ -8675,8 +8631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Privacy_Policy
-  FallbackText: 
 --- !u!1 &694400819
 GameObject:
   m_ObjectHideFlags: 0
@@ -9814,8 +9768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Order_Details
-  FallbackText: 
 --- !u!1 &786450596
 GameObject:
   m_ObjectHideFlags: 0
@@ -9963,8 +9915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Delivery
-  FallbackText: 
 --- !u!1 &792155928
 GameObject:
   m_ObjectHideFlags: 0
@@ -10603,8 +10553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Wide_Range
-  FallbackText: 
 --- !u!1 &826568807
 GameObject:
   m_ObjectHideFlags: 0
@@ -10752,8 +10700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Delivery
-  FallbackText: 
 --- !u!1 &837539620
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,8 +10847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Subtotal
-  FallbackText: 
 --- !u!1 &840773425
 GameObject:
   m_ObjectHideFlags: 0
@@ -11050,8 +10994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Add_To_Bag
-  FallbackText: Add to bag
 --- !u!1 &853726975
 GameObject:
   m_ObjectHideFlags: 0
@@ -11402,8 +11344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Street_House
-  FallbackText: 
 --- !u!1 &895238258
 GameObject:
   m_ObjectHideFlags: 0
@@ -11551,8 +11491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Welcome
-  FallbackText: ' Welcome to our app!'
 --- !u!1 &915195627
 GameObject:
   m_ObjectHideFlags: 0
@@ -12011,24 +11949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &962011963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12481,24 +12401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 39.4
-  spread: 0
-  useGlobalAngle: 1
-  offsetAngle: 59.565765
-  offsetDistance: 0
-  offset: {x: 0, y: -0}
-  color: {r: 0, g: 0, b: 0, a: 0.20392157}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 0
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!1 &993142511
 GameObject:
   m_ObjectHideFlags: 0
@@ -12646,8 +12548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Saved
-  FallbackText: 
 --- !u!1 &996035886
 GameObject:
   m_ObjectHideFlags: 0
@@ -13764,8 +13664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Shopping_Cart
-  FallbackText: 
 --- !u!1 &1061162516
 GameObject:
   m_ObjectHideFlags: 0
@@ -14063,8 +13961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Privacy_Policy
-  FallbackText: 
 --- !u!1 &1091407606
 GameObject:
   m_ObjectHideFlags: 0
@@ -14497,24 +14393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 39.4
-  spread: 0
-  useGlobalAngle: 1
-  offsetAngle: 59.565765
-  offsetDistance: 0
-  offset: {x: 0, y: -0}
-  color: {r: 0, g: 0, b: 0, a: 0.20392157}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 0
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!1 &1120430421
 GameObject:
   m_ObjectHideFlags: 0
@@ -15827,8 +15705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Contacts
-  FallbackText: 
 --- !u!1 &1236574389
 GameObject:
   m_ObjectHideFlags: 0
@@ -16528,8 +16404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Oops
-  FallbackText: Oops, your shopping cart's empty.
 --- !u!1 &1308014647
 GameObject:
   m_ObjectHideFlags: 0
@@ -17394,8 +17268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Your_Order
-  FallbackText: 
 --- !u!1 &1365334523
 GameObject:
   m_ObjectHideFlags: 0
@@ -17916,8 +17788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: View_All
-  FallbackText: 
 --- !u!1 &1381271625
 GameObject:
   m_ObjectHideFlags: 0
@@ -18123,8 +17993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Message_Text
-  FallbackText: 
 --- !u!1 &1383923451
 GameObject:
   m_ObjectHideFlags: 0
@@ -18314,24 +18182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 39.4
-  spread: 0
-  useGlobalAngle: 1
-  offsetAngle: 59.565765
-  offsetDistance: 0
-  offset: {x: 0, y: -0}
-  color: {r: 0, g: 0, b: 0, a: 0.20392157}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 0
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!1 &1389036497
 GameObject:
   m_ObjectHideFlags: 0
@@ -18755,8 +18605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Address
-  FallbackText: 
 --- !u!1 &1404036287
 GameObject:
   m_ObjectHideFlags: 0
@@ -19198,7 +19046,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 17.900024}
+  m_AnchoredPosition: {x: 0, y: 17.900146}
   m_SizeDelta: {x: 0, y: 198.3}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1438647992
@@ -20637,8 +20485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Please_Enter
-  FallbackText: 
 --- !u!1 &1565136756
 GameObject:
   m_ObjectHideFlags: 0
@@ -20675,7 +20521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 17.900024}
+  m_AnchoredPosition: {x: 0, y: 17.900146}
   m_SizeDelta: {x: 0, y: 198.3}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1565136758
@@ -20863,8 +20709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Sales
-  FallbackText: 
 --- !u!1 &1578137136
 GameObject:
   m_ObjectHideFlags: 0
@@ -21338,8 +21182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Mail
-  FallbackText: 
 --- !u!1 &1600209936
 GameObject:
   m_ObjectHideFlags: 0
@@ -21434,7 +21276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1602308373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21772,8 +21614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Language
-  FallbackText: 
 --- !u!1 &1611458444
 GameObject:
   m_ObjectHideFlags: 0
@@ -22755,8 +22595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Apartment
-  FallbackText: 
 --- !u!1 &1647722828
 GameObject:
   m_ObjectHideFlags: 0
@@ -23104,8 +22942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Now_You
-  FallbackText: Now you can order your favorite food and get it quickly and conveniently
 --- !u!1 &1672408893
 GameObject:
   m_ObjectHideFlags: 0
@@ -23396,24 +23232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &1697143308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24213,8 +24031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Settings
-  FallbackText: 
 --- !u!1 &1762564147
 GameObject:
   m_ObjectHideFlags: 0
@@ -24234,7 +24050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1762564148
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24650,8 +24466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Order_Up
-  FallbackText: 
 --- !u!1 &1799573850
 GameObject:
   m_ObjectHideFlags: 0
@@ -24705,24 +24519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &1799573853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25969,8 +25765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Terms_Of_Use
-  FallbackText: 
 --- !u!1 &1885183443
 GameObject:
   m_ObjectHideFlags: 0
@@ -26238,8 +26032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Go_Menu
-  FallbackText: Go menu
 --- !u!1 &1894161119
 GameObject:
   m_ObjectHideFlags: 0
@@ -26387,8 +26179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Our_del
-  FallbackText: 
 --- !u!1 &1913092046
 GameObject:
   m_ObjectHideFlags: 0
@@ -26536,8 +26326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Contacts
-  FallbackText: 
 --- !u!1 &1915165482
 GameObject:
   m_ObjectHideFlags: 0
@@ -26755,24 +26543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &1973855396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27164,24 +26934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 46.05
-  spread: 0.317
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 15.3
-  offset: {x: 0.0000009119512, y: -15.3}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &2003552960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27456,8 +27208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Floor
-  FallbackText: 
 --- !u!1 &2016796736
 GameObject:
   m_ObjectHideFlags: 0
@@ -28424,8 +28174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Language
-  FallbackText: 
 --- !u!1 &2082821810
 GameObject:
   m_ObjectHideFlags: 0
@@ -28508,24 +28256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 32
-  spread: 0
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 12
-  offset: {x: 0.00000071525585, y: -12}
-  color: {r: 0, g: 0, b: 0, a: 0.11372549}
-  inset: 0
-  blendMode: 0
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!114 &2082821814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28963,8 +28693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: Asian_Food
-  FallbackText: 
 --- !u!1 &2145746600
 GameObject:
   m_ObjectHideFlags: 0
