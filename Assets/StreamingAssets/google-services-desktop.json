@@ -1,26 +1,28 @@
 {
   "project_info": {
-    "project_number": "189825279477",
-    "project_id": "pp-3-df3d5",
-    "storage_bucket": "pp-3-df3d5.appspot.com"
+    "project_number": "538891748735",
+    "project_id": "frpp3bs",
+    "storage_bucket": "frpp3bs.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:189825279477:android:17277cfa9fb98b04576cbc",
+        "mobilesdk_app_id": "1:538891748735:ios:06de4c7a9548b5b48c464a",
         "android_client_info": {
-          "package_name": "com.test.pizza"
+          "package_name": "com.fatugFRT.DplTp3"
         }
       },
-      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAeYqSEoqCkjbvGvzz-rRqu5jhH41RRF7o"
+          "current_key": "AIzaSyAdFzgVgjEXO3EJjqKA7BbMJtGs5hpxDtk"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 0
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "status": 1
         }
       }
     }
